@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .backdrop-blur-custom {
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+  }
+}
+.blur-bg-image {
+  filter: blur(3px); 
+  -webkit-filter: blur(3px); 
+  
+  
+  transform: scale(1.1); 
+}
